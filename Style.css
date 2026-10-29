@@ -1,0 +1,70 @@
+/* Styles the overall page */
+body {
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+/* Styles the main heading */
+h1 {
+    text-align: center;
+    color:aquamarine
+    font-size: 36px;
+}
+
+/* Styles the secondary headings*/
+h2{
+    text-align: center;
+    color: aquamarine;
+    font-size: 26px;
+}
+
+/* Styles paragraph text */
+p{
+    text-align: left;
+    color: aqua;
+    font-size: 18px;
+    line-height: 1.5;
+}
+/* styles both music sections */
+.music-card {
+    background-color: white;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+/* Second reusable class for highlighted text */
+.highlight {
+    color: aquamarine;
+    font-weight: bold;
+}
+
+/* Styles the unigue header */
+#main-header {
+    background-color: beige;
+    padding: 25px;
+}
+
+#main-header h1 {
+    color: white;
+}
+
+/* styles the unique footer*/
+#main-footer {
+    background-color:azure
+    padding: 15px;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Allows both cards to share the available space */
+.flex-container .music-card {
+    flex: 1 1 250px;
+}
